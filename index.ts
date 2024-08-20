@@ -1,3 +1,3 @@
-import { ExampleClass } from "./lib/decorator";
+import { ExampleClass } from './lib/decorator'
 
 new ExampleClass().exampleMethod()

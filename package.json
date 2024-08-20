@@ -5,7 +5,13 @@
     "start": "ts-node index.ts"
   },
   "devDependencies": {
+    "@padcom/eslint-config-typescript": "^0.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "eslint": "*",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
+  },
+  "eslintConfig": {
+    "extends": "@padcom/eslint-config-typescript"
   }
 }
